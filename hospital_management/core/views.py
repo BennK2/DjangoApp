@@ -15,8 +15,8 @@ def register_view(request):
 def login_view(request):
     if request.method == 'POST':
         username = request.POST['username']
-        password = \"******\"equest.POST['password']
-        user = authenticate(request, username=username, password=\"******\"assword)
+        pa***MASKED*** = \"******\"equest.POST['pa***MASKED***']
+        user = authenticate(request, username=username, pa***MASKED***=\"******\"assword)
         if user:
             login(request, user)
             return redirect('dashboard')

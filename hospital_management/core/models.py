@@ -48,7 +48,7 @@ class Treatment(models.Model):
 class Signup(models.Model):
     username = models.CharField(max_length=150, unique=True)  # Unique username
     email = models.EmailField(unique=True)                    # Unique email
-    password = \"******\"odels.CharField(max_length=128)               # Hashed password
+    pa***MASKED*** = \"******\"odels.CharField(max_length=128)               # Hashed pa***MASKED***
 
     def __str__(self):
         return self.username
