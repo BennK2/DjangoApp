@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Update Patient</h2>
+<form method="post">
+    {% csrf_token %}
+    <label>New Contact Number:</label><input type="text" name="contact_number" value="{{ patient.contact_number }}" required><br>
+    <button type="submit">Update</button>
+</form>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Treatments</h2>
+<a href="{% url 'add_treatment' %}">Add New Treatment</a>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Patient</th>
+        <th>Doctor</th>
+        <th>Diagnosis</th>
+        <th>Prescription</th>
+        <th>Notes</th>
+    </tr>
+    {% for treatment in treatments %}
+    <tr>
+        <td>{{ treatment.id }}</td>
+        <td>{{ treatment.appointment.patient.full_name }}</td>
+        <td>{{ treatment.appointment.doctor.name }}</td>
+        <td>{{ treatment.diagnosis }}</td>
+        <td>{{ treatment.prescription }}</td>
+        <td>{{ treatment.notes }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

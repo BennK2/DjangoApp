@@ -1,0 +1,134 @@
+Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Sheet_Name,Emails,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Event,Sub-Event,Sub-Events' Counts,"Probablity 
+(Extract or Default to Medium when not found)",Risk Control Present,Likelihood (L),Impact (I),Risk factor (L x I),Note:,Event ID,Sub-Event ID
+,Example Risk Matrix in Excel,,,,,,Sample,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,Sample,,,,,,,,,,,,,,,,,,,,,
+,Impact             Certainty,Unlikely,Rare,Possible,Likely,Certain,Sample,,,,,,,,,,,,,,,,,,,,,
+,Insignificant,1,2,3,4,5,Sample,,,,,,,,,,,,,,,,,,,,,
+,Minor,2,4,6,8,10,Sample,,,,,,,,,,,,,,,,,,,,,
+,Medium,3,6,9,12,15,Sample,,,,,,,,,,,,,,,,,,,,,
+,Major,4,8,12,16,20,Sample,,,,,,,,,,,,,,,,,,,,,
+,Catastrophic,5,10,15,20,25,Sample,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,Sample,,,,,,,,,,,,,,,,,,,,,
+,Certainty,Possible,,,,,Sample,,,,,,,,,,,,,,,,,,,,,
+,Impact,Major,,,,,Sample,,,,,,,,,,,,,,,,,,,,,
+,Result,12,,,,,Sample,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,An internal memo revealed testing issues that the system was poorly tested which may cause software failure.,,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,"The agency reported that CS2 had over 1,000 reported test problems, of which 400 had no known fixes”, resulting in around 3,000 software failures a week, Thus theres is a 70% chance current release will have software failure.",,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,"software failures ended up costing an estimated USD 768 million altogether due to ""bad design"" and ""bad testing"". ",,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,"EDS, a Texas-based contractor, also announced a $153 million loss in their subsequent financial results becasue software failure due to bad “Testing”.",,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,"As result of software failures, thousands of travelers stranded at Heathrow’s Terminal 5 opened back in March 2008, because of a caused by buggy software which seemed deployed without proper testing. ",,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,"Baggage handling system failed miserably in real-life due to poor software testing that resulted in Software failure, this caused massive disruptions like malfunctioning luggage belts and thousands of items being lost or sent to the wrong destinations.",,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,"At the end of a busy day, the manager receives an email regarding software failure that booking system has failed because of an end-of-life (EOL) built-in component in the software.",,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,"For missed EOVS notice, Technology Manager receives an email from security team that the vendor went bankrupt this morning and they will not be able to provide vendor support for software from next week.",,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,"Due to Insufficient backup power, there is a 70% chance of hardware failures.",,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,Disk drive failure caused Operating System erors that resulted in hardware failures.,,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,Failed disk to the operating system casued hardware failures. ,,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,Short-circuit caused Fire in datacenter that resulted in hardware failures.,,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,Admin found there are User accounts with passwords category never-expire.,,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,Found some User accounts with passwords category expire-not-required.,,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,Identified 300 Inactive User accounts,,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,User accounts with administrative permissions,,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,Found 100 Empty security groups.,,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,Administrative Groups ,,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,Admin found Shared folders accessible by everyone,,,,,,,,,,,,,,,,,,,,
+,,,,,,,week7-data,There were hundrededs of File names containing sensitive data.,,,,,,,,,,,,,,,,,,,,
+,,,,,,,Week7-Risk Matrix,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,Week7-Risk Matrix,,,,,,,,,,,,,,,,,,,,,
+,Likelihood: Probablity,,,,,,Week7-Risk Matrix,,Risk Score as of Jan-2023,,,,,,,,,,,,,,,,,,,
+,Unlikely,Rare,Possible,Likely,Certain,,Week7-Risk Matrix,,Event,Sub-Event,Sub-Events' Counts,"Probablity 
+(Extract or Default to Medium when not found)",Risk Control Present,Likelihood (L),Impact (I),Risk factor (L x I),,,,,,,,,,,,
+,1,2,3,4,5,,Week7-Risk Matrix,,Software failure,,,,,,,,,,,,,,,,,,,
+,10% - 15%,16% - 40%,41% - 60%,61% -80%,81% - 100%,,Week7-Risk Matrix,,,Testing,2,4,Yes,2,2,4,Example,,,,,,,,,,,
+,Impact: Severity Level,,,,,,Week7-Risk Matrix,,,Design,,,Yes,,,,,,,,,,,,,,,
+,Insignificant,Low,Medium,High,Catastrophic,,Week7-Risk Matrix,,,End of Life (EOL),,,No,,,,,,,,,,,,,,,
+,1,2,3,4,5,,Week7-Risk Matrix,,,End of Vendor Support (EOVS),,,Yes,,,,,,,,,,,,,,,
+,,,,,,,Week7-Risk Matrix,,,Vulnerbility,,,Yes,,,,,,,,,,,,,,,
+,Impact Level for Events,,,,,,Week7-Risk Matrix,,,Hacking/Malware,,,Yes,,,,,,,,,,,,,,,
+,Event,Sub-event,Impact,Severity Level,,,Week7-Risk Matrix,,Hardware Failure ,,,,,,,,,,,,,,,,,,,
+,Software failures,Testing,4,High,,,Week7-Risk Matrix,,,Natural/Man-made disasters,,,No,,,,,,,,,,,,,,,
+,,Design,3,Medium,,,Week7-Risk Matrix,,,Hard drive failures,,,No,,,,,,,,,,,,,,,
+,,End of Life (EOL),3,Medium,,,Week7-Risk Matrix,,,Network failures,,,Yes,,,,,,,,,,,,,,,
+,,End of Vendor Support (EOVS),2,Low,,,Week7-Risk Matrix,,,Loss of Power due to Insufficient Backup,,,No,,,,,,,,,,,,,,,
+,,Vulnerbility,3,Medium,,,Week7-Risk Matrix,,Users & computers,User accounts with passwords never expire.,,,No,,,,,,,,,,,,,,,
+,,Hacking/Malware,4,High,,,Week7-Risk Matrix,,,User accounts with passwords not required to expire.,,,Yes,,,,,,,,,,,,,,,
+,Hardware failures,Natural/Man-made disasters,5,Catastrophic,,,Week7-Risk Matrix,,,Inactive User accounts,,,No,,,,,,,,,,,,,,,
+,,Hard drive failures,5,Catastrophic,,,Week7-Risk Matrix,,Permissions,User accounts with administrative permissions,,,No,,,,,,,,,,,,,,,
+,,Network failures,5,Catastrophic,,,Week7-Risk Matrix,,,Empty security groups.,,,No,,,,,,,,,,,,,,,
+,,Loss of Power,5,Catastrophic,,,Week7-Risk Matrix,,,Administrative Groups ,,,No,,,,,,,,,,,,,,,
+,Users & computers,User accounts with passwords never expire.,3,Medium,,,Week7-Risk Matrix,,Data,Shared folders accessible by everyone,,,No,,,,,,,,,,,,,,,
+,,User accounts with passwords not required to expire.,2,Low,,,Week7-Risk Matrix,,,File names containing sensitive data.,,,No,,,,,,,,,,,,,,,
+,,Inactive User accounts,5,Catastrophic,,,Week7-Risk Matrix,,,,,,,,,,,,,,,,,,,,,
+,Permissions,User accounts with administrative permissions,5,Catastrophic,,,Week7-Risk Matrix,,,,,,,,,,,,,,,,,,,,,
+,,Empty security groups.,5,Catastrophic,,,Week7-Risk Matrix,,,,,,,,,,,,,,,,,,,,,
+,,Administrative Groups ,5,Catastrophic,,Note:,Week7-Risk Matrix,,"If Risk controls are not implemented then the residaul risk is high, and we assume here the highest impact and probablity.",,,,,,,,,,,,,,,,,,,
+,Data,Shared folders accessible by everyone,5,Catastrophic,,,Week7-Risk Matrix,,"If you don't get probability from text then assume it is ""Likely"" with rating 4. Convert the probablity into rating from the text such as 70% is 4 for likely.",,,,,,,,,,,,,,,,,,,
+,,File names containing sensitive data.,5,Catastrophic,,,Week7-Risk Matrix,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,Week7-Risk Matrix,,Impact = Imapct from the category in the table x (Count of sub-events extracted/Total of Event Type Extracted),,,,,,,,,,,,,,,,,,,
+,,,,,,,Week7-Risk Matrix,,,,,,,,,,,,,,,,,,,,,
+,,,,,,e.g.,Week7-Risk Matrix,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,Week7-Risk Matrix,,"Event Type: Software failure, count=4",,,,,,,,,,,,,,,,,,,
+,,,,,,,Week7-Risk Matrix,,"Sub-event type: Testing, count = 2",,,,,,,,,,,,,,,,,,,
+,,,,,,,Week7-Risk Matrix,,Probablity = 40% = 0.40,,,,,,,,,,,,,,,,,,,
+,,,,,,,Week7-Risk Matrix,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,Week7-Risk Matrix,,Thus likelihood =,2,,,,,,,,,,,,,,,,,,
+,,,,,,,Normalized,,,,,,,,,,,Software failure,Testing,2,4,Yes,2,2,4,"Assign IDs and change with IDs to: Event, Sub-Event, and RiskControlPresent",,
+,,,,,,,Normalized,,,,,,,,,,,Software failure,Design,3,3,Yes,3,3,9,for regression analysis,,
+,,,,,,,Normalized,,,,,,,,,,,Software failure,End of Life (EOL),2,3,No,3,2,6,,,
+,,,,,,,Normalized,,,,,,,,,,,Software failure,End of Vendor Support (EOVS),3,2,Yes,4,3,12,,,
+,,,,,,,Normalized,,,,,,,,,,,Software failure,Vulnerbility,4,3,Yes,4,4,16,,,
+,,,,,,,Normalized,,,,,,,,,,,Software failure,Hacking/Malware,5,4,Yes,2,5,10,,,
+,,,,,,,Normalized,,,,,,,,,,,Hardware Failure ,Natural/Man-made disasters,1,5,No,3,1,3,,,
+,,,,,,,Normalized,,,,,,,,,,,Hardware Failure ,Hard drive failures,3,5,No,2,3,6,,,
+,,,,,,,Normalized,,,,,,,,,,,Hardware Failure ,Network failures,4,5,Yes,3,4,12,,,
+,,,,,,,Normalized,,,,,,,,,,,Hardware Failure ,Loss of Power due to Insufficient Backup,2,5,No,3,2,6,,,
+,,,,,,,Normalized,,,,,,,,,,,Users & computers,User accounts with passwords never expire.,2,3,No,4,2,8,,,
+,,,,,,,Normalized,,,,,,,,,,,Users & computers,User accounts with passwords not required to expire.,3,2,Yes,4,3,12,,,
+,,,,,,,Normalized,,,,,,,,,,,Users & computers,Inactive User accounts,1,5,No,4,1,4,,,
+,,,,,,,Normalized,,,,,,,,,,,Permissions,User accounts with administrative permissions,1,5,No,2,1,2,,,
+,,,,,,,Normalized,,,,,,,,,,,Permissions,Empty security groups.,2,5,No,3,2,6,,,
+,,,,,,,Normalized,,,,,,,,,,,Permissions,Administrative Groups ,3,5,No,4,3,12,,,
+,,,,,,,Normalized,,,,,,,,,,,Data,Shared folders accessible by everyone,3,5,No,4,3,12,,,
+,,,,,,,Normalized,,,,,,,,,,,Data,File names containing sensitive data.,1,5,No,1,1,1,,,
+,,,,,,,Linear Regression example,,,,,,,,,,,,,2,4,1,2,2,4,,1.0,1
+,,,,,,,Linear Regression example,,,,,,,,,,,,,3,3,1,3,3,9,,1.0,2
+,,,,,,,Linear Regression example,,,,,,,,,,,,,2,3,0,3,2,6,,1.0,3
+,,,,,,,Linear Regression example,,,,,,,,,,,,,3,2,1,4,3,12,,1.0,4
+,,,,,,,Linear Regression example,,,,,,,,,,,,,4,3,1,4,4,16,,1.0,5
+,,,,,,,Linear Regression example,,,,,,,,,,,,,5,4,1,2,5,10,,1.0,6
+,,,,,,,Linear Regression example,,,,,,,,,,,,,1,5,0,3,1,3,,2.0,7
+,,,,,,,Linear Regression example,,,,,,,,,,,,,3,5,0,2,3,6,,2.0,8
+,,,,,,,Linear Regression example,,,,,,,,,,,,,4,5,1,3,4,12,,2.0,9
+,,,,,,,Linear Regression example,,,,,,,,,,,,,2,5,0,3,2,6,,2.0,10
+,,,,,,,Linear Regression example,,,,,,,,,,,,,2,3,0,4,2,8,,3.0,11
+,,,,,,,Linear Regression example,,,,,,,,,,,,,3,2,1,4,3,12,,3.0,12
+,,,,,,,Linear Regression example,,,,,,,,,,,,,1,5,0,4,1,4,,3.0,13
+,,,,,,,Linear Regression example,,,,,,,,,,,,,1,5,0,2,1,2,,4.0,14
+,,,,,,,Linear Regression example,,,,,,,,,,,,,2,5,0,3,2,6,,4.0,15
+,,,,,,,Linear Regression example,,,,,,,,,,,,,3,5,0,4,3,12,,4.0,16
+,,,,,,,Linear Regression example,,,,,,,,,,,,,3,5,0,4,3,12,,5.0,17
+,,,,,,,Linear Regression example,,,,,,,,,,,,,1,5,0,1,1,1,,5.0,18
+,,,,,,,Linear Regression example,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,Linear Regression example,,,,,,,,,,,,,,,,,,,,,SUMMARY OUTPUT
+,,,,,,,Linear Regression example,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,Linear Regression example,,,,,,,,,,,,,,,,,,,,,Regression Statistics
+,,,,,,,Linear Regression example,,,,,,,,,,,,,0.9779470809969004,,,,,,,,Multiple R
+,,,,,,,Linear Regression example,,,,,,,,,,,,,0.9563804932303581,,,,,,,,R Square
+,,,,,,,Linear Regression example,,,,,,,,,,,,,0.8416789440832808,,,,,,,,Adjusted R Square
+,,,,,,,Linear Regression example,,,,,,,,,,,,,1.1024509399472049,,,,,,,,Standard Error
+,,,,,,,Linear Regression example,,,,,,,,,,,,,18,,,,,,,,Observations
+,,,,,,,Linear Regression example,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,Linear Regression example,,,,,,,,,,,,,,,,,,,,,ANOVA
+,,,,,,,Linear Regression example,,,,,,,,,,,,,df,SS,MS,F,Significance F,,,,
+,,,,,,,Linear Regression example,,,,,,,,,,,,,7,293.13062117510475,41.87580302501497,40.1967919272597,1.5583747941419733e-06,,,,Regression
+,,,,,,,Linear Regression example,,,,,,,,,,,,,11,13.369378824895229,1.2153980749904754,,,,,,Residual
+,,,,,,,Linear Regression example,,,,,,,,,,,,,18,306.5,,,,,,,Total
+,,,,,,,Linear Regression example,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,Linear Regression example,,,Lower 95.0%,Upper 95.0%,,,,,,,,,Coefficients,Standard Error,t Stat,P-value,Lower 95%,Upper 95%,,,
+,,,,,,,Linear Regression example,,,-11.21010380460883,-1.100871601409061,,,,,,,,,-6.155487703008945,2.296524389737108,-2.6803493707783295,0.021394837394699745,-11.210103804608826,-1.1008716014090645,,,Intercept
+,,,,,,,Linear Regression example,,,-0.8035246594452313,2.745904809725411,,,,,,,,,0.9711900751400898,0.8063274422583702,1.2044611459830397,0.2536873011347794,-0.8035246594452302,2.7459048097254097,,,X Variable 1
+,,,,,,,Linear Regression example,,,-0.6138258536303232,0.3550154505049564,,,,,,,,,-0.12940520156268337,0.2200926479883538,-0.5879578565910609,0.5684348594978019,-0.6138258536303228,0.3550154505049561,,,X Variable 2
+,,,,,,,Linear Regression example,,,1.9057100095566755,3.4623421200676745,,,,,,,,,2.684026064812175,0.3536216733160953,7.590106227490695,1.0731955335799028e-05,1.905710009556676,3.462342120067674,,,X Variable 3
+,,,,,,,Linear Regression example,,,-1.061261468370412,0.5428354727429385,,,,,,,,,-0.25921299781373675,0.3644043063531066,-0.7113335196499028,0.4916868470350274,-1.0612614683704116,0.5428354727429381,,,X Variable 4
+,,,,,,,Linear Regression example,,,-1.2685386265110696,2.9442281313359824,,,,,,,,,0.8378447524124563,0.9570184375235974,0.8754739925183493,0.4000291494710967,-1.2685386265110683,2.944228131335981,,,X Variable 5
+,,,,,,,Linear Regression example,,,1.4633417469004517,3.0006288129125407,,,,,,,,,2.231985279906496,0.34922704021050344,6.391215521458829,5.142642855874011e-05,1.4633417469004522,3.00062881291254,,,X Variable 6
+,,,,,,,Linear Regression example,,,0,0,,,,,,,,,0,0,65535,,0,0,,,X Variable 7

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Appointments</h2>
+<a href="{% url 'add_appointment' %}">Add New Appointment</a>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Patient</th>
+        <th>Doctor</th>
+        <th>Date</th>
+        <th>Reason</th>
+    </tr>
+    {% for appointment in appointments %}
+    <tr>
+        <td>{{ appointment.id }}</td>
+        <td>{{ appointment.patient.full_name }}</td>
+        <td>{{ appointment.doctor.name }}</td>
+        <td>{{ appointment.appointment_date }}</td>
+        <td>{{ appointment.reason }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

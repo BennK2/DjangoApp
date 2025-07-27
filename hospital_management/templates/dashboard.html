@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Dashboard</h1>
+<p>Welcome, {{ request.user.username }}!</p>
+<div class="dashboard-stats">
+    <div class="stat-box">
+        <h3>{{ patient_count }}</h3>
+        <p>Patients</p>
+    </div>
+    <div class="stat-box">
+        <h3>{{ doctor_count }}</h3>
+        <p>Doctors</p>
+    </div>
+    <div class="stat-box">
+        <h3>{{ appointment_count }}</h3>
+        <p>Appointments</p>
+    </div>
+    <div class="stat-box">
+        <h3>{{ treatment_count }}</h3>
+        <p>Treatments</p>
+    </div>
+</div>
+{% endblock %}

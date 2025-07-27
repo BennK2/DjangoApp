@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Add Treatment</h2>
+<form method="post">
+    {% csrf_token %}
+    <label>Appointment:</label>
+    <select name="appointment_id" required>
+        {% for appointment in appointments %}
+        <option value="{{ appointment.id }}">{{ appointment.patient.full_name }} - {{ appointment.doctor.name }} ({{ appointment.appointment_date }})</option>
+        {% endfor %}
+    </select><br>
+    <label>Diagnosis:</label><input type="text" name="diagnosis" required><br>
+    <label>Prescription:</label><input type="text" name="prescription" required><br>
+    <label>Notes:</label><textarea name="notes" required></textarea><br>
+    <button type="submit">Add Treatment</button>
+</form>
+{% endblock %}
